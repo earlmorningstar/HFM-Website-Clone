@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #161616;
+    color: #eeeeee;
+    padding: 1em 4em;
+}
+
+.first-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 10px;
+}
+
+.btn-contact-holder {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.first-nav-links {
+    display: flex;
+    gap: 5px;
+}
+.tiny-header-text {
+    color: #a8a8a8;
+    font-size: 8px;
+}
+
+.lone-space {
+    color: #a8a8a8;
+    font-size: 13px;
+}
+
+.download-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 3px 6px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #eeeeee;
+    background-color: #161616;
+    border: 0.5px solid #7c7c7c;
+    border-radius: 3px;
+}
+
+.download-btn:hover {
+    background-color: #ffffff;
+    color: #161616;
+    transition: 0.4s all ease-in-out;
+}
+
+.ri-smartphone-line {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.contact-link {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.contact-link:hover {
+    color: #a8a8a8;
+    transition: 0.2s all ease-in-out;
+}
+
+.lang-flag-holder {
+    cursor: pointer;
+    width: 20px;
+    height: 15px;
+}
+
+.lang-flag {
+    width: 100%;
+    height: 100%;
+}
+
+.second-nav {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+.logo-container {
+    cursor: pointer;
+}
+
+.logo-option-container {
+    display: flex;
+    gap: 15px;
+    width: fit-content;
+}
+
+.logo {
+    line-height: 35px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.red-text {
+    color: #cd0511;
+}
+
+.under-logo-text {
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.nav-options-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-btn-container {
+    display: flex;
+    gap: 5px;
+}
+
+.nav-option {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-option:hover {
+    color: #a8a8a8;
+    transition: 0.2s all ease-in-out;
+}
+
+.login-btn {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #161616;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 7px 15px;
+    border: 1px solid #cd0511;
+    border-radius: 3px;
+}
+
+.login-btn:hover {
+    background-color: #cd0511;
+    transition: 0.2s all ease-in-out;
+}
+
+.reg-btn {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #179149;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 7px 15px;
+    border: 1px solid #179149;
+    border-radius: 3px;
+}
+
+.reg-btn:hover {
+    background-color: #0e6833;
+    border-color: #0e6833;
+    transition: 0.2s all ease-in-out;
+}

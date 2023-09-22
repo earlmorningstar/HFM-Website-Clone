@@ -5,35 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/landingPageStyle.css">
     <link rel="stylesheet" href="/css/remixicon.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>HFM Clone</title>
 </head>
 <body>
-    <nav>
+    <nav class="navbar-container">
         <!-- ---First Nav--- -->
-        <div>
-            <div>Member of HF Markets Group</div>
-            <div>
-                <div><button>Download App</button></div>
-                <div>Contact us</div>
-                <div>Partner with us</div>
-                <div>FLAG</div>
+        <div  class="first-nav">
+            <div class="tiny-header-text">Member of HF Markets Group</div>
+            <div class="btn-contact-holder">
+                <div><button class="download-btn"><span><i class="ri-smartphone-line"></i></span> Download App</button></div>
+                <div class="first-nav-links">
+                <div class="contact-link">Contact us</div>
+                <div class="lone-space">|</div>
+                <div class="contact-link">Partner with us</div>
+                <div class="lone-space">|</div>
+                <div class="lang-flag-holder"><img class="lang-flag" src="/images/Flag-Nigeria.jpg" alt=""></div>
+                </div>
             </div>
         </div>
         <!-- ---Second Nav--- -->
-        <div>
-            <div>
-                <div>Site Logo</div>
-                <div>
-                    <div>Market</div>
-                    <div>Trading</div>
-                    <div>Investment</div>
-                    <div>Tools & Education</div>
-                    <div>Company</div>
+        <div class="second-nav">
+            <div class="logo-option-container">
+                <div class="logo-container">
+                    <div class="logo">HF<span class="red-text">M</span></div>
+                    <div class="under-logo-text">HF MARKETS</div>
+                </div>
+                <div class="nav-options-container">
+                    <div class="nav-option">Market</div>
+                    <div class="nav-option">Trading</div>
+                    <div class="nav-option">Investment</div>
+                    <div class="nav-option">Tools & Education</div>
+                    <div class="nav-option">Company</div>
                 </div>
             </div>
-            <div>
-                <div><button>Login</button></div>
-                <div><button>Register</button></div>
+            <div class="nav-btn-container">
+                <div><button class="login-btn">Login</button></div>
+                <div><button class="reg-btn">Register</button></div>
             </div>
         </div>
     </nav>
