@@ -1,23 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar-container {
+.first-nav {
     font-family: 'Open Sans', sans-serif;
     background-color: #161616;
     color: #eeeeee;
-    padding: 1em 4em;
-}
-
-.first-nav {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    padding-bottom: 10px;
+    padding: 1em 4em 0.5em 4em;
+}
+
+.second-nav {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #161616;
+    color: #eeeeee;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    padding: 0.8em 4em 0.5em 4em;
 }
 
 .btn-contact-holder {
@@ -87,11 +96,13 @@
     height: 100%;
 }
 
-.second-nav {
+/* .second-nav {
+    position: sticky;
+    top: 20px;
     display: flex;
     justify-content: space-between;   
     align-items: center;
-}
+} */
 
 .logo-container {
     cursor: pointer;
@@ -173,3 +184,46 @@
     border-color: #0e6833;
     transition: 0.2s all ease-in-out;
 }
+
+.hero-and-plain {
+    background-color: #f4f4f4;
+    padding-left: 4em;
+} 
+
+.hero-section {
+    display: flex;
+    width: 100%
+}
+
+.hero-text {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    width: 50%;
+    font-size: 46px;
+    font-weight: 700;
+    padding: 1.6em 2.7em 0 0;
+}
+
+.hero-img-contaianer{
+    width: 50%;
+    height: 65vh;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-text-ii {
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #161616;
+    width: 19em;
+    font-size: 17px;
+}
+
+.bold-black {
+    font-weight: 700;
+}
+
+/* font-family: 'Sofia Sans Condensed', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
