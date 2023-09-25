@@ -297,32 +297,40 @@
     color: #989696;
 }
 
-
 .invst-hover-item-container {
     border-radius: 5px;
     background-color: #292828;
     color: #eeeeee;
     width: 5em;
     padding: 0.5em 0;
-  
 }
 
 .invst-link {
     cursor: pointer;
     padding: 10px 10px 10px 10px;
-    /* margin-bottom: 10px; */
     font-size: 13px;
-    /* width: 100%; */
 }
 
 .invst-link:hover {
     background-color: #4a4848;
-    /* width: 100%; */
 }
 
 .invst-mkt-part {
     width: 100%;
     margin: 1em 0;
+}
+
+/* .hidden-item {
+    display: none;
+    top: 100%;
+    left: 0;
+    position: absolute;
+} */
+
+#mktItems, #compItems, #trdItems, #toolsItems, #invstItems {
+    display: none;
+    position: absolute;
+    left: 0;
 }
 
 
