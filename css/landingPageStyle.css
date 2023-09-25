@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: end;
-  padding: 1em 4em 0.5em 4em;
+  padding: 1em 4em 0 4em;
 }
 
 .second-nav {
@@ -26,7 +26,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.8em 4em 1em 4em;
+  padding: 0.5em 4em 1em 4em;
 }
 
 .btn-contact-holder {
@@ -240,7 +240,6 @@
 .market-hover-item-container {
   border-radius: 5px;
   display: flex;
-  /* gap: 60px; */
   background-color: #292828;
   color: #eeeeee;
   width: 25em;
@@ -267,14 +266,12 @@
 .first-mkt-part {
   width: 50%;
   margin: 1em 0;
-  /* background-color: #179149; */
 }
 
 .second-mkt-part {
   border-left: 1px solid grey;
   width: 50%;
   margin: 1em 0;
-  /* background-color: red; */
 }
 
 .trdn-hover-item-container {
@@ -303,6 +300,7 @@
 
 .invst-link {
   cursor: pointer;
+  text-align: center;
   padding: 10px 10px 10px 10px;
   font-size: 13px;
 }
@@ -351,6 +349,21 @@
   display: none;
   position: absolute;
   left: 320px;
+}
+
+.plan-container {
+  display: flex;
+  padding: 0 4em;
+  width: 100%;
+}
+
+.counter {
+    padding: 8em 4em;
+    text-align: center;
+}
+
+#value {
+    font-size: 40px;
 }
 
 /* font-family: 'Sofia Sans Condensed', sans-serif; */
