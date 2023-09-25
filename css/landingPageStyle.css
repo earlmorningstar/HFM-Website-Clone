@@ -26,7 +26,7 @@
     display: flex;
     justify-content: space-between;   
     align-items: center;
-    padding: 0.8em 4em 0.5em 4em;
+    padding: 0.8em 4em 1em 4em;
 }
 
 .btn-contact-holder {
@@ -238,6 +238,95 @@
     width: 20em;
    
 }
+
+.market-hover-item-container {
+    border-radius: 5px;
+    display: flex;
+    /* gap: 60px; */
+    background-color: #292828;
+    color: #eeeeee;
+    width: 25em;
+    padding: 0 0;
+
+}
+
+.nav-hover-items {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.mkt-link {
+    cursor: pointer;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    width: 100%;
+}
+
+.mkt-link:hover {
+    background-color: #4a4848;
+}
+
+.first-mkt-part {
+    width: 50%;
+    margin: 1em 0;
+    /* background-color: #179149; */
+}
+
+.second-mkt-part {
+    border-left: 1px solid grey;
+    width: 50%;
+    margin: 1em 0;
+    /* background-color: red; */
+}
+
+.trdn-hover-item-container {
+    border-radius: 5px;
+    display: flex;
+    background-color: #292828;
+    color: #eeeeee;
+    width: 35em;
+    padding: 0 0;
+
+}
+
+.trd-non-link {
+    padding: 10px 0 10px 10px;
+    font-size: 13px;
+    width: 100%;
+    color: #989696;
+}
+
+
+.invst-hover-item-container {
+    border-radius: 5px;
+    background-color: #292828;
+    color: #eeeeee;
+    width: 5em;
+    padding: 0.5em 0;
+  
+}
+
+.invst-link {
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    /* margin-bottom: 10px; */
+    font-size: 13px;
+    /* width: 100%; */
+}
+
+.invst-link:hover {
+    background-color: #4a4848;
+    /* width: 100%; */
+}
+
+.invst-mkt-part {
+    width: 100%;
+    margin: 1em 0;
+}
+
+
+
 
 /* font-family: 'Sofia Sans Condensed', sans-serif; */
 /* font-family: 'Open Sans', sans-serif; */
