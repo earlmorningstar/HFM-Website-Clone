@@ -9,7 +9,7 @@ window.onscroll = () => {
   }
 };
 
-// Navbar Hovering Display Item List---
+// Navbar Hovering Display Item List Starts Here---
 
 const mktHover = document.getElementById("mktHover");
 const trdHover = document.getElementById("trdHover");
@@ -70,28 +70,33 @@ compHover.addEventListener("mouseout", () => {
 
 //Navbar Hovering Display Item List Ends Here---
 
-let count = 0;
+// Counter JS Starts Here------
 
-const value = document.getElementById("value");
-const btns = document.querySelectorAll(".btn");
 
-btns.forEach((btn) => {
-  btn.addEventListener("click", (e) => {
-    const styles = e.currentTarget.classList;
-    if (styles.contains("decrease")) {
-      count--;
-    } else if (styles.contains("increase")) {
-      count++;
-    } else if (styles.contains("reset")) {
-      count = 0;
-    }
-    if (count > 0) {
-      value.style.color = "green";
-    } else if (count < 0) {
-      value.style.color = "red";
-    } else if (count === 0) {
-      value.style.color = "black";
-    }
-    value.textContent = count;
-  });
-});
+// let count = 0;
+
+// const value = document.getElementById("value");
+// const btns = document.querySelectorAll(".btn");
+
+// btns.forEach((btn) => {
+//   btn.addEventListener("click", (e) => {
+//     const styles = e.currentTarget.classList;
+//     if (styles.contains("decrease")) {
+//       count--;
+//     } else if (styles.contains("increase")) {
+//       count++;
+//     } else if (styles.contains("reset")) {
+//       count = 0;
+//     }
+//     if (count > 0) {
+//       value.style.color = "green";
+//     } else if (count < 0) {
+//       value.style.color = "red";
+//     } else if (count === 0) {
+//       value.style.color = "black";
+//     }
+//     value.textContent = count;
+//   });
+// });
+
+// Counter JS Ends Here------

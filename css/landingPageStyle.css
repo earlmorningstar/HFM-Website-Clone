@@ -169,6 +169,7 @@
   padding: 7px 15px;
   border: 1px solid #179149;
   border-radius: 3px;
+  width: 14rem;
 }
 
 .reg-btn:hover {
@@ -351,20 +352,75 @@
   left: 320px;
 }
 
-.plan-container {
+.award-plan-container {
   display: flex;
-  padding: 0 4em;
+  padding: 4em 4em 4em 4em;
   width: 100%;
 }
 
-.counter {
+.award-learn-mre {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 50%;
+}
+
+.plan-container {
+  width: 50%;
+}
+
+.award-xl-header {
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-size: 2.5rem;
+  width: 8em;
+  line-height: 40px;
+}
+
+.design-m-text {
+  font-family: 'Open Sans', sans-serif;
+  width: 22em;
+  font-size: 14px;
+}
+
+.black-text {
+  color: #161616;
+  font-weight: 700;
+}
+
+.learn-btn-red  {
+  cursor: pointer;
+  background-color: transparent;
+  color: #161616;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 15px;
+  border: 1px solid #cd0511;
+  border-radius: 3px;
+  width: 14rem;
+}
+
+.learn-btn-red:hover {
+  background-color: #cd0511;
+  color: #ffffff;
+  transition: 0.3s all ease-in-out;
+}
+
+
+
+
+
+/* font-family: 'Sofia Sans Condensed', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+
+/* Navbar Hovering Display Item List Starts Here--- */
+/* .counter {
     padding: 8em 4em;
     text-align: center;
 }
 
 #value {
     font-size: 40px;
-}
+} */
 
-/* font-family: 'Sofia Sans Condensed', sans-serif; */
-/* font-family: 'Open Sans', sans-serif; */
+/* Navbar Hovering Display Item List Ends Here--- */
