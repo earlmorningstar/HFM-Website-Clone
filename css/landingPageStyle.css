@@ -169,7 +169,6 @@
   padding: 7px 15px;
   border: 1px solid #179149;
   border-radius: 3px;
-  width: 14rem;
 }
 
 .reg-btn:hover {
@@ -365,10 +364,6 @@
   width: 50%;
 }
 
-.plan-container {
-  width: 50%;
-}
-
 .award-xl-header {
   font-family: 'Sofia Sans Condensed', sans-serif;
   font-size: 2.5rem;
@@ -388,6 +383,7 @@
 }
 
 .learn-btn-red  {
+  font-family: 'Open Sans', sans-serif;
   cursor: pointer;
   background-color: transparent;
   color: #161616;
@@ -405,9 +401,32 @@
   transition: 0.3s all ease-in-out;
 }
 
+.plan-container {
+  font-family: 'Open Sans', sans-serif;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
 
+.plans-xl-header {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
 
+.plans-l-text {
+  color: #212529;
+  font-size: 14px;
+  border-bottom: 1px solid rgb(222, 221, 221);
+  width: 11em;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+
+.each-plan {
+  margin-bottom: 20px;
+}
 
 /* font-family: 'Sofia Sans Condensed', sans-serif; */
 /* font-family: 'Open Sans', sans-serif; */
