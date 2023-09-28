@@ -178,22 +178,52 @@
 }
 
 .hero-and-plain {
+  /* overflow: hidden;
+  position: relative; */
   background-color: #f4f4f4;
   padding: 0 0 5em 4em;
 }
 
 .hero-section {
+  /* overflow: hidden;
+  position: relative; */
   display: flex;
   width: 100%;
 }
 
 .hero-text {
+  opacity: 1;
+  transform: translateX(0);
+  transition-duration: 1.5s;
+  transition-timing-function: ease-in;
+  /* opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 1s, transform 1s; */
   font-family: "Sofia Sans Condensed", sans-serif;
   width: 50%;
   font-size: 46px;
   font-weight: 700;
   padding: 1.6em 2.7em 0 0;
 }
+
+/* @keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+/* .hero-text.active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s, transform 1s;
+  animation: moveUp 1s forwards; 
+} */
+
 
 .hero-img-contaianer {
   width: 50%;
