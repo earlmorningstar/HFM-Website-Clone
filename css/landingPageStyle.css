@@ -536,6 +536,96 @@
   color: #b9b8b8;
 }
 
+.comp-numbers-comtainer {
+  padding: 4em 4em;
+  width: 100%;
+  background-color: #f4f4f4;
+  display: flex;
+}
+
+.success-numbers-container {
+  font-family: 'Open Sans', sans-serif;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.market-div-holder {
+  width: 55%;
+  display: flex;
+  gap: 10px;
+}
+
+#success-id-header {
+  width: 10em;
+}
+
+.each-suc-item {
+  display: flex;
+  flex-direction: column;;
+}
+
+#suc-amt-id {
+  margin-bottom: 5px;
+}
+
+.suc-amt-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #212529;
+  border-bottom: 1.5px solid rgb(222, 221, 221);
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  width: 22em;
+}
+
+#suc-amt-text-id {
+  border-bottom: none;
+}
+
+.fcsi-holder {
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+  width: 7em;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  padding: 0.5em;
+  border-radius: 6px;
+}
+
+#fcsi-holder-id {
+  background-color: #e7e6e6;
+}
+
+.fcsi-holder:hover {
+  background-color: #e7e6e6;
+  transition: 0.3s all ease-in-out;
+}
+
+.fcsi-text {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.fcsi-icon {
+  font-size: 40px;
+  color: #b1212b;
+  font-weight: 400;
+}
+
+.mkt-sale-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ 
+}
+
+
+
 
 
 
