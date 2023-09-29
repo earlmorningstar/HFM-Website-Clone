@@ -490,6 +490,12 @@
   gap: 25px;
   border-radius: 15px;
   width: 27rem;
+  margin-bottom: 20px;
+}
+
+.bonus-container:hover {
+  background-color: #e7e6e6;
+  transition: 0.3s all ease-in-out;
 }
 
 .xxl-bold-text {
