@@ -554,7 +554,7 @@
 .market-div-holder {
   width: 55%;
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 #success-id-header {
@@ -619,11 +619,32 @@
 }
 
 .mkt-sale-container {
+  padding: 1em;
+  border-radius: 8px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  background-color: #ffffff;
  
 }
 
+.msbs-holders {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.msbs-holders > span {
+  margin-bottom: 15px;
+/* border-bottom: 1px solid  rgb(222, 221, 221); */
+}
+
+.msbs-light-header {
+  color: #a5a5a5;
+  font-size: 13px;
+  font-weight: 500;
+}
 
 
 
