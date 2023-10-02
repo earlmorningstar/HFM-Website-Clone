@@ -618,17 +618,20 @@
   font-weight: 400;
 }
 
-/* .mkt-sale-container {
-  padding: 1em;
+.mkt-sale-container {
+  padding: 1em 1em 0 1em;
   border-radius: 8px;
+  background-color: #ffffff;
+  height: 83vh;
+}
+
+.mkt-sale-container-ii {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 50px;
-  background-color: #ffffff;
- 
-} */
+  grid-column-gap: 45px;
+}
 
-.mkt-sale-container {
+/* .mkt-sale-container {
   width: 30em;
   padding: 1em;
   border-radius: 8px;
@@ -638,15 +641,23 @@
 .msbs-holders {
   font-family: 'Open Sans', sans-serif;
   display: flex;
+  gap: 30px;
   justify-content: space-between;
+  text-align: start;
+} */
+
+.commision-s-text {
+  font-family: 'Open Sans', sans-serif;
+  color: #161616;
+  font-size: 8px;
+  font-weight: 400;
 }
 
-/* .msbs-holders {
+.msbs-holders {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
-  
-} */
+}
 
 .msbs-holders > span {
   margin-bottom: 25px;
