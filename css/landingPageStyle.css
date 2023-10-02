@@ -682,8 +682,37 @@
   text-align: center;
 }
 
+.about-hfm-container {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 4em 4em 4em 0;
+  display: flex;
+  gap: 30px;
+}
 
+.app-image-holder {
+  width: 50%;
+  /* height: ; */
+}
 
+.app-image {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.abt-app-text-container {
+  width: 50%;
+}
+
+.abt-app-h-st-iconList {
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  width: 50%;
+
+}
+
+.abt-app-L-header {
+  
+}
 
 
 
