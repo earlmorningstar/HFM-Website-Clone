@@ -70,8 +70,33 @@ compHover.addEventListener("mouseout", () => {
 
 //Navbar Hovering Display Item List Ends Here---
 
-// Counter JS Starts Here------
+//QR Code Hovering Display Item Begins Here----
 
+const appleHover = document.getElementById("appHover");
+const androidHover = document.getElementById("androidHover");
+
+const appleScanBtn = document.getElementById("appleScanBtn");
+const androidScanBtn = document.getElementById("androidScanBtn");
+
+androidScanBtn.addEventListener("mouseover", () => {
+  androidHover.style.display = "block";
+});
+
+androidScanBtn.addEventListener("mouseout", () => {
+  androidHover.style.display = "none";
+});
+
+appleScanBtn.addEventListener("mouseover", () => {
+  appleHover.style.display = "block";
+});
+
+appleScanBtn.addEventListener("mouseout", () => {
+  appleHover.style.display = "none";
+});
+
+//QR Code Hovering Display Item Ends Here----
+
+// Counter JS Starts Here------
 
 // let count = 0;
 

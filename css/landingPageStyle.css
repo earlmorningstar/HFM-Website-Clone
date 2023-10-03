@@ -797,6 +797,49 @@
 .btn-qr-brcode-container {
   display: flex;
   gap: 20px;
+  /* remove margin after working */
+  margin-bottom: 10px;
+  /* remove margin after working */
+}
+
+.scan-hover-container {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  padding: 0.5em 0.5em 1em 0.5em;
+  background-color: #161616;
+  color: #ffffff;
+  width: 10em;
+  text-align: center;
+}
+
+.scan-text {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.bold-wt-weight {
+  font-weight: 700;
+}
+
+#qr-border-line {
+  border: 4px solid #ffffff;
+}
+
+#appHover  {
+  display: none;
+  position: absolute;
+  right: 240px;
+  
+ /* bottom: -2px; */
+}
+
+#androidHover{
+  display: none;
 }
 
 /* font-family: 'Sofia Sans Condensed', sans-serif; */
