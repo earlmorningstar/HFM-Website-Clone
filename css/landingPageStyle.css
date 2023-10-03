@@ -224,7 +224,6 @@
   animation: moveUp 1s forwards; 
 } */
 
-
 .hero-img-contaianer {
   width: 50%;
   height: 65vh;
@@ -395,14 +394,14 @@
 }
 
 .award-xl-header {
-  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-size: 2.5rem;
   width: 8em;
   line-height: 40px;
 }
 
 .design-m-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 22em;
   font-size: 14px;
 }
@@ -412,8 +411,8 @@
   font-weight: 700;
 }
 
-.learn-btn-red  {
-  font-family: 'Open Sans', sans-serif;
+.learn-btn-red {
+  font-family: "Open Sans", sans-serif;
   cursor: pointer;
   background-color: transparent;
   color: #161616;
@@ -432,17 +431,16 @@
 }
 
 .plan-container {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 50%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-
 .plans-xl-header {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
 .plans-l-text {
@@ -466,7 +464,6 @@
 #lang-flag-holder-id {
   width: 25px;
   height: 25px;
-  
 }
 
 #lang-flag-id {
@@ -478,11 +475,10 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  
 }
 
 .bonus-container {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #ffffff;
   padding: 2em 4em 2em 2em;
   display: flex;
@@ -499,7 +495,7 @@
 }
 
 .xxl-bold-text {
-  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-size: 50px;
   font-weight: 700;
 }
@@ -530,7 +526,7 @@
 }
 
 .tiny-terms-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 10px;
   font-weight: 500;
   color: #b9b8b8;
@@ -544,7 +540,7 @@
 }
 
 .success-numbers-container {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 45%;
   display: flex;
   flex-direction: column;
@@ -586,7 +582,7 @@
 
 .fcsi-holder {
   cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #ffffff;
   width: 7em;
   margin-bottom: 10px;
@@ -647,21 +643,21 @@
 } */
 
 .commision-s-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #161616;
   font-size: 8px;
   font-weight: 400;
 }
 
 .msbs-holders {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
 }
 
 .msbs-holders > span {
   margin-bottom: 25px;
-/* border-bottom: 1px solid  rgb(222, 221, 221); */
+  /* border-bottom: 1px solid  rgb(222, 221, 221); */
 }
 
 .msbs-light-header {
@@ -671,7 +667,7 @@
 }
 
 .msbs-s-text {
-   font-size: 13px;
+  font-size: 13px;
 }
 
 .green-text {
@@ -681,7 +677,6 @@
 #msbs-holders-id {
   text-align: center;
 }
-
 
 .about-hfm-app-container {
   background-color: #f4f4f4;
@@ -707,16 +702,17 @@
   flex-direction: column;
   gap: 50px;
   width: 18em;
+  margin-bottom: 30px;
 }
 
 .abbtapp-l-text {
-  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-size: 2.5rem;
-  line-height: 40px
+  line-height: 40px;
 }
 
 .abbtapp-s-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #161616;
   line-height: 18px;
@@ -739,14 +735,20 @@
 }
 
 .abtapp-list-text {
-  font-family: 'Open Sans', sans-serif;
-font-size: 16px;
-color: #161616;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #161616;
 }
 
+.btn-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 .download-icon-text {
   display: flex;
   align-items: center;
+  gap: 6px;
 }
 
 .download-text {
@@ -757,15 +759,24 @@ color: #161616;
 
 .download-app-btn {
   background-color: #161616;
-  border: 1px  solid #161616;
+  border: 1px solid #161616;
   color: #ffffff;
   border-radius: 6px;
-  padding: 4px 4px;
+  padding: 5px 6px;
+  width: 8em;
 }
 
-.download-l-text {
+.download-s-text {
   font-size: 8px;
   font-weight: 200;
+}
+
+.download-b-text {
+  font-size: 15px;
+}
+
+#download-gg-text {
+  font-size: 12px;
 }
 
 .download-btn-icon {
@@ -773,13 +784,23 @@ color: #161616;
   color: #ffffff;
 }
 
+.qr-code-holder {
+  width: 5em;
+  height: 16vh;
+}
 
+.qr-code-img {
+  width: 100%;
+  height: 100%;
+}
 
-
+.btn-qr-brcode-container {
+  display: flex;
+  gap: 20px;
+}
 
 /* font-family: 'Sofia Sans Condensed', sans-serif; */
 /* font-family: 'Open Sans', sans-serif; */
-
 
 /* Navbar Hovering Display Item List Starts Here--- */
 /* .counter {
