@@ -478,6 +478,7 @@
 }
 
 .bonus-container {
+  cursor: pointer;
   font-family: "Open Sans", sans-serif;
   background-color: #ffffff;
   padding: 2em 4em 2em 2em;
@@ -758,6 +759,7 @@
 }
 
 .download-app-btn {
+  cursor: pointer;
   background-color: #161616;
   border: 1px solid #161616;
   color: #ffffff;
@@ -787,6 +789,7 @@
 .qr-code-holder {
   width: 5em;
   height: 16vh;
+  /* margin-left: 30px; */
 }
 
 .qr-code-img {
@@ -797,9 +800,7 @@
 .btn-qr-brcode-container {
   display: flex;
   gap: 20px;
-  /* remove margin after working */
-  margin-bottom: 10px;
-  /* remove margin after working */
+  margin-bottom: 50px;
 }
 
 .scan-hover-container {
@@ -834,13 +835,69 @@
   display: none;
   position: absolute;
   right: 240px;
-  
- /* bottom: -2px; */
 }
 
 #androidHover{
   display: none;
+  position: absolute;
+  right: 240px;
 }
+
+.tested-trusted-container {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #161616;
+  color: #ffffff;
+  padding: 5em 4em 4em 4em ;
+}
+
+.tested-l-text {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-size: 2.5rem;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.three-tested-hover-container {
+  display: flex; 
+  gap: 30px;
+}
+
+.each-glob-container {
+  cursor: pointer;
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border-radius: 15px;
+  padding: 2em 2.5em;
+  width: 18em;
+}
+
+.each-glob-container:hover {
+  background-color: #464646;
+  transition: 0.3s all ease-in-out;
+}
+
+.tested-head-text {
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.tested-icon {
+  font-size: 90px;
+  color: #676666;
+}
+
+.tested-s-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  text-align: center;
+}
+
+
 
 /* font-family: 'Sofia Sans Condensed', sans-serif; */
 /* font-family: 'Open Sans', sans-serif; */
